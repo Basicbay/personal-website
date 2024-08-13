@@ -108,7 +108,7 @@ export default function About() {
       <div className="fixed bottom-5 left-1/2 transform -translate-x-1/2 text-sm z-50 ">
         {showAlert && (
           <Alert
-            message="Copied Phone Number"
+            message="Copied PhoneNumber"
             type="success"
             onClose={handleClose}
           />

@@ -6,7 +6,7 @@ const items = [
     name: "/images/certificate/borntodev.png",
     key: "Coding Problem Solving",
     desc: "BorntoDev",
-    link: "/images/certificate/borntodevCer.png"
+    link: "/images/certificate/borntodevCer.png",
   },
 ];
 
@@ -23,8 +23,7 @@ export default function Certificate() {
             target="_blank"
             rel="noopener noreferrer"
             key={index}
-            className="flex items-center gap-x-10 sm:gap-x-32 border-2 border-white dark:border-black/0 hover:border-blue-400 dark:hover:border-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 sm:px-10 p-5"
-          >
+            className="flex items-center gap-x-10 sm:gap-x-32 border-2 border-white dark:border-black/0 lg:hover:border-blue-400 lg:dark:hover:border-blue-400 lg:hover:bg-blue-50 lg:dark:hover:bg-blue-900/20 sm:px-10 p-5">
             <Image
               key={index}
               src={item.name}
@@ -35,9 +34,7 @@ export default function Certificate() {
             />
             <div>
               <h3 className=" font-semibold ">{item.key}</h3>
-              <p className=" text-zinc-500 dark:text-zinc-400  ">
-                {item.desc}
-              </p>
+              <p className=" text-zinc-500 dark:text-zinc-400  ">{item.desc}</p>
             </div>
           </Link>
         ))}

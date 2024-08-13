@@ -38,7 +38,7 @@ const Alert: React.FC<AlertProps> = ({
       exit={{ x: -300, opacity: 0 }}>
     <div className={`${baseStyle} ${typeStyles[type]}`}>
       <div className="flex justify-between items-center">
-        <span className="text-nowrap">{message}</span>
+        <p className="text-nowrap">{message}</p>
         <button onClick={onClose} className="ml-4 text-lg font-bold">
           &times;
         </button>

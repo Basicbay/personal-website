@@ -28,8 +28,7 @@ const Experience: React.FC<ExperienceListProps> = ({ items }) => {
             href={item.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-x-10 sm:gap-x-32 border-2 border-white dark:border-black/0 hover:border-blue-400 dark:hover:border-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 sm:px-10 p-5"
-          >
+            className="flex items-center gap-x-10 sm:gap-x-32 border-2 border-white dark:border-black/0 lg:hover:border-blue-400 lg:dark:hover:border-blue-400 lg:hover:bg-blue-50 lg:dark:hover:bg-blue-900/20 sm:px-10 p-5">
             <Image
               src={item.img}
               alt={item.img}

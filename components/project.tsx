@@ -26,7 +26,9 @@ const Project: React.FC<ProjectListProps> = ({ items }) => {
         {items.map((item) => (
           <Link
             key={item.key}
-            className="flex flex-col gap-y-5 border-2 border-white dark:border-black/0 hover:border-blue-400 dark:hover:border-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 p-5"
+            className="flex flex-col gap-y-5 border-2 border-white dark:border-black/0 lg:hover:border-blue-400 lg:dark:hover:border-blue-400 lg:hover:bg-blue-50 lg:dark:hover:bg-blue-900/20
+
+ p-5"
             href={item.link}
             target="_blank"
             rel="noopener noreferrer"
