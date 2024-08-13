@@ -79,7 +79,7 @@ export default function About() {
             />
           </Link>
         </div>
-        <div className="flex flex-col items-start -ml-3">
+        <div className="flex flex-col items-start gap-y-2 -ml-3">
           <Button
             variant="ghost"
             size={"sm"}
@@ -105,7 +105,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="fixed top-5 left-1/2 transform -translate-x-1/2 text-sm z-50 text-nowrap ">
+      <div className="fixed bottom-5 left-1/2 transform -translate-x-1/2 text-sm z-50 ">
         {showAlert && (
           <Alert
             message="Copied Phone Number"
