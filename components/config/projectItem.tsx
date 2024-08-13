@@ -45,7 +45,7 @@ export const ProjectItem: ProjectItem[] = [
   {
     image: "/images/project/store.png",
     tag: "Application",
-    key: "Game Application",
+    key: " Mobile Game",
     desc: "Developed gaming apps to generate revenue via Google AdMob ads.",
     link: "https://apps.apple.com/th/developer/nattagrit-ridtikhab/id1288981567?see-all=i-phonei-pad-apps",
   },

@@ -26,12 +26,10 @@ const Project: React.FC<ProjectListProps> = ({ items }) => {
         {items.map((item) => (
           <Link
             key={item.key}
-            className="flex flex-col gap-y-5 border-2 border-white dark:border-black/0 lg:hover:border-blue-400 lg:dark:hover:border-blue-400 lg:hover:bg-blue-50 lg:dark:hover:bg-blue-900/20
-
- p-5"
             href={item.link}
             target="_blank"
             rel="noopener noreferrer"
+            className="flex flex-col gap-y-5 border-2 border-white dark:border-black/0 lg:hover:border-blue-400 lg:dark:hover:border-blue-400 lg:hover:bg-blue-50 lg:dark:hover:bg-blue-900/20 py-5 sm:px-5"
           >
             <Image
               src={item.image}
@@ -41,10 +39,12 @@ const Project: React.FC<ProjectListProps> = ({ items }) => {
               height={2000}
             />
             <div>
+              <div className="flex gap-x-2">
               <Badge variant={"default"} className=" mb-2 -ml-1">
                 {item.tag}
               </Badge>
               <p className="text-lg font-bold pb-1">{item.key}</p>
+              </div>
               <p className="text-sm break-words text-zinc-500 dark:text-zinc-400">
                 {item.desc}
               </p>
