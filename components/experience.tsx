@@ -22,7 +22,7 @@ const Experience: React.FC<ExperienceListProps> = ({ items }) => {
       <p className="text-3xl font-bold pb-5 border-b-[1px]  dark:border-zinc-800">
         Experience
       </p>
-      <ol className="grid xl:grid-cols-2">
+      <ol className="grid lg:grid-cols-2">
         {items.map((item) => (
           <Link
             href={item.link}

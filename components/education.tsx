@@ -22,7 +22,7 @@ const Education: React.FC<EducationListProps> = ({ items }) => {
       <p className="text-3xl font-bold pb-5 border-b-[1px]  dark:border-zinc-800">
         Education
       </p>
-      <ol className="grid xl:grid-cols-2">
+      <ol className="grid lg:grid-cols-2">
         {items.map((item) => (
           <Link
             href={item.link}
@@ -37,7 +37,7 @@ const Education: React.FC<EducationListProps> = ({ items }) => {
               className=" w-24"
             />
             <div>
-              <h3 className=" font-semibold">{item.key}</h3>
+              <h3 className=" font-semibold text-nowrap">{item.key}</h3>
               <p className=" text-zinc-500 dark:text-zinc-400 pb-2 ">
                 {item.desc}
               </p>

@@ -14,7 +14,7 @@ const Alert: React.FC<AlertProps> = ({
   onClose,
   timeout = 3000,
 }) => {
-  const baseStyle = "p-3 rounded-md text-white mb-4";
+  const baseStyle = "p-3 rounded-md text-white text-nowrap";
   const typeStyles = {
     success: "bg-green-500",
     error: "bg-red-500",

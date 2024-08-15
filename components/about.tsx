@@ -28,7 +28,7 @@ export default function About() {
   };
 
   return (
-    <div className="grid md:grid-cols-2 gap-5 text-center sm:text-left pt-28">
+    <div className="grid md:grid-cols-2 gap-5 text-center md:text-left pt-28">
       <Image
         src={"/images/me3.png"}
         alt="avatar"
@@ -37,7 +37,7 @@ export default function About() {
         height={3024}
       ></Image>
 
-      <div className="flex flex-col gap-y-5 items-center sm:items-start">
+      <div className="flex flex-col gap-y-5 items-center md:items-start">
         <p className="text-5xl font-extrabold leading-tight">
           Nattagrit Ridtikhab
         </p>
@@ -105,7 +105,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="fixed bottom-5 left-1/2 transform -translate-x-1/2 text-sm z-50 ">
+      <div className="fixed bottom-5 right-5 text-sm z-50 ">
         {showAlert && (
           <Alert
             message="Copied PhoneNumber"

@@ -7,11 +7,11 @@ import { MenuList } from "./ui/menuList";
 
 export default function Navbar() {
   return (
-    <div className="z-10 w-full pb-5">
+    <div id="home" className="z-10 w-full pb-5">
       <div className="fixed left-0 top-0 w-full border-b bg-gradient-to-b backdrop-blur-2xl dark:border-zinc-800 ">
         <div className="max-w-[1280px] mx-auto flex items-center justify-between p-5">
           <div className="flex items-center gap-x-2">
-            <Link href={"/"} className=" font-bold text-2xl">
+            <Link href={"#home"} scroll={true} className=" font-bold text-2xl">
               <span className=" font-black text-3xl bg-gradient-to-b from-blue-300 to-blue-700 bg-clip-text text-transparent">
                 N{" "}
               </span>

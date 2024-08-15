@@ -11,14 +11,14 @@ export const ProjectItem: ProjectItem[] = [
     image: "/images/project/fwx.png",
     tag: "Website",
     key: "FWX Finance",
-    desc: "Integrate the new landing page with the Figma design using TypeScript, Next.js and Frammer Motion",
+    desc: "Integrate the new landing page with the Figma design using TypeScript, Next.js and Frammer Motion.",
     link: "https://fwx.finance",
   },
   {
     image: "/images/project/port.png",
     tag: "Website",
     key: "Personal Portfolio",
-    desc: "Design and develop a fully responsive website using React, TypeScript, Next.js, and Tailwind CSS",
+    desc: "Design and develop a fully responsive website using React, TypeScript, Next.js, and Tailwind CSS.",
     link: "/",
   },
   {
@@ -45,7 +45,7 @@ export const ProjectItem: ProjectItem[] = [
   {
     image: "/images/project/store.png",
     tag: "Application",
-    key: " Mobile Game",
+    key: " Mobile Games",
     desc: "Developed gaming apps to generate revenue via Google AdMob ads.",
     link: "https://apps.apple.com/th/developer/nattagrit-ridtikhab/id1288981567?see-all=i-phonei-pad-apps",
   },

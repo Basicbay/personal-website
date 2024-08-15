@@ -11,7 +11,7 @@ import { ProjectItem } from "@/components/config/projectItem";
 
 export default function Home() {
   return (
-    <main className="flex flex-col justify-between p-5 max-w-[1280px]">
+    <main className="flex flex-col justify-between px-5 pb-5 max-w-[1280px]">
       <Navbar />
       <About />
       <Experience items={ExperienceItem} />
