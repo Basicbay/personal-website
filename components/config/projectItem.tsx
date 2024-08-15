@@ -32,14 +32,14 @@ export const ProjectItem: ProjectItem[] = [
     image: "/images/project/user.png",
     tag: "Web App",
     key: "User Management",
-    desc: "Developed a MERN stack application with full CRUD operations.",
+    desc: "Develop a MERN stack web application with full CRUD operations and a complete RESTful API.",
     link: "https://user-management-az98.onrender.com",
   },
   {
     image: "/images/project/employee.png",
     tag: "Web App",
     key: "Employee Database",
-    desc: "Developed a MERN stack application with full CRUD operations.",
+    desc: "Develop a MERN stack web application with full CRUD operations and a complete RESTful API.",
     link: "https://mern-stack-crud-m2qd.onrender.com",
   },
   {
