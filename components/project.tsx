@@ -26,23 +26,23 @@ const Project: React.FC<ProjectListProps> = ({ items }) => {
       </p>
       <div className="grid sm:grid-cols-2 xl:grid-cols-3">
         {items.map((item) => (
-          <motion.div key={item.key} className="w-full h-full">
+          <motion.div
+            key={item.key}
+          >
             <Link
               href={item.link}
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col gap-y-5 border-2 border-white dark:border-black/0 lg:hover:border-blue-400 lg:dark:hover:border-blue-400 lg:hover:bg-blue-50 lg:dark:hover:bg-blue-900/20 py-5 sm:px-5"
             >
-              <div className="relative overflow-hidden">
+              <div className="relative overflow-hidden border dark:border-zinc-800">
                 <motion.div
                   whileHover={{ scale: 1.05 }}
                   transition={{ duration: 0.3 }}
-                  className="w-full h-full"
                 >
                   <Image
                     src={item.image}
                     alt={item.key}
-                    className="w-full h-full object-cover transition-transform duration-300"
                     width={2000}
                     height={2000}
                   />
