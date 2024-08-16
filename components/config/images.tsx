@@ -14,7 +14,7 @@ export const skillImage = {
   FramerMotion: "/images/skill/Motion.svg",
   Vite: "/images/skill/Vite.svg",
   Bun: "/images/skill/Bun.svg",
-  Figma: "/images/skill/Figma.svg",
+  Mongo: "/images/skill/Mongo.svg",
   Git: "/images/skill/Git.svg",
   Jira: "/images/skill/Jira.svg",
 };

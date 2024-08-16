@@ -20,7 +20,7 @@ const items = [
   { name: skillImage.FramerMotion, title: "Framer Motion" },
   { name: skillImage.Vite, title: "Vite" },
   { name: skillImage.Bun, title: "Bun" },
-  { name: skillImage.Figma, title: "Figma" },
+  { name: skillImage.Mongo, title: "Mongo DB" },
   { name: skillImage.Git, title: "Version Control" },
   { name: skillImage.Jira, title: "Jira" },
 ];

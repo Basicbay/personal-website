@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { Badge } from "./ui/badge";
+import { twMerge } from "tailwind-merge";
 
 interface ExperienceItem {
   img: string;
@@ -23,10 +24,10 @@ const Experience: React.FC<ExperienceListProps> = ({ items }) => {
         Experience
       </p>
       <ol className="grid lg:grid-cols-2">
-        {items.map((item) => (
+        {items.map((item,index) => (
           <Link
             href={item.link}
-            target="_blank"
+            target={twMerge(index === 3 ? "_self" : ("_blank"))}
             rel="noopener noreferrer"
             className="flex items-center gap-x-12 sm:gap-x-32 border-2 border-white dark:border-black/0 lg:hover:border-blue-400 lg:dark:hover:border-blue-400 lg:hover:bg-blue-50 lg:dark:hover:bg-blue-900/20 sm:px-10 py-5">
             <Image

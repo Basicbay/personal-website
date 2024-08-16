@@ -5,6 +5,7 @@ import Link from "next/link";
 import React from "react";
 import { Badge } from "@/components/ui/badge";
 import { motion } from "framer-motion";
+import { twMerge } from "tailwind-merge";
 
 interface ProjectItem {
   image: string;
@@ -25,13 +26,13 @@ const Project: React.FC<ProjectListProps> = ({ items }) => {
         Projects
       </p>
       <div className="grid sm:grid-cols-2 xl:grid-cols-3">
-        {items.map((item) => (
+        {items.map((item,index) => (
           <motion.div
             key={item.key}
           >
             <Link
               href={item.link}
-              target="_blank"
+              target={twMerge(index === 1 ? "_self" : ("_blank"))}
               rel="noopener noreferrer"
               className="flex flex-col gap-y-5 border-2 border-white dark:border-black/0 lg:hover:border-blue-400 lg:dark:hover:border-blue-400 lg:hover:bg-blue-50 lg:dark:hover:bg-blue-900/20 py-5 sm:px-5"
             >
