@@ -30,7 +30,7 @@ export default function About() {
   return (
     <div className="grid md:grid-cols-2 gap-5 text-center md:text-left pt-28">
       <Image
-        src={"/images/me3.png"}
+        src={"/images/me.png"}
         alt="avatar"
         className=" dark:bg-black/25 bg-zinc-100 mx-auto w-[300px] "
         width={3024}
