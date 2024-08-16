@@ -60,7 +60,7 @@ export default function About() {
           </Button>
           <Link
             href={"https://github.com/basicbay"}
-            target="_blank"
+            target="_self"
             rel="noopener noreferrer"
           >
             <Icon
@@ -70,7 +70,7 @@ export default function About() {
           </Link>
           <Link
             href={"https://www.linkedin.com/in/nattagrit/"}
-            target="_blank"
+            target="_self"
             rel="noopener noreferrer"
           >
             <Icon
