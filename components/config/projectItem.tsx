@@ -19,7 +19,7 @@ export const ProjectItem: ProjectItem[] = [
     tag: "Website",
     key: "Personal Portfolio",
     desc: "Design and develop a fully responsive website using React, TypeScript, Next.js, and Tailwind CSS.",
-    link: "/",
+    link: "",
   },
   {
     image: "/images/project/faucet.png",

@@ -59,23 +59,23 @@ export default function About() {
             </Link>
           </Button>
           <Link
-            href={"https://github.com/Basicbay"}
+            href={"https://github.com/basicbay"}
             target="_blank"
             rel="noopener noreferrer"
           >
             <Icon
               icon="mdi:github"
-              className="text-4xl dark:hover:text-zinc-200 hover:text-zinc-800"
+              className=" size-10 dark:hover:text-zinc-200 hover:text-zinc-800"
             />
           </Link>
           <Link
-            href={"https://www.linkedin.com/in/nattagrit-ridtikhab"}
+            href={"https://www.linkedin.com/in/nattagrit/"}
             target="_blank"
             rel="noopener noreferrer"
           >
             <Icon
               icon="mdi:linkedin"
-              className="text-4xl dark:hover:text-zinc-200 hover:text-zinc-800"
+              className=" size-10 dark:hover:text-zinc-200 hover:text-zinc-800"
             />
           </Link>
         </div>

@@ -21,13 +21,13 @@ export const ExperienceItem: ExperienceItem[] = [
     date: "2017 - 2022",
     link: "https://apps.apple.com/th/developer/nattagrit-ridtikhab/id1288981567?see-all=i-phonei-pad-apps",
   },
-  {
-    img: "/images/experience/codestar.png",
-    key: "Java Software Engineer",
-    desc: "Codestar | Bootcamp",
-    date: "1 Month in 2016",
-    link: "https://codestar.work/java",
-  },
+  // {
+  //   img: "/images/experience/codestar.png",
+  //   key: "Java Software Engineer",
+  //   desc: "Codestar | Bootcamp",
+  //   date: "1 Month in 2016",
+  //   link: "https://codestar.work/java",
+  // },
   {
     img: "/images/experience/standthai.png",
     key: "Network Engineer",
