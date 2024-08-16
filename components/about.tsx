@@ -51,7 +51,7 @@ export default function About() {
           <Button variant="default" size={"sm"} className="h-fit py-1">
             <Link
               href={"/images/pdf/nattagrit.pdf"}
-              target="_blank"
+              target="_self"
               rel="noopener noreferrer"
               className=" text-base font-bold"
             >
