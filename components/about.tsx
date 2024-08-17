@@ -43,7 +43,7 @@ export default function About() {
         </p>
         <div className="text-lg sm:text-xl font-medium text-zinc-400 pb-2 ">
           Frontend Developer | 1+ Years of Experience | Expertise in React,
-          Typescript and Next.js — I’m Always learning and exploring new things
+          Next.js, Typescript and Node.js — I’m Always learning and exploring new things
           !
         </div>
 
