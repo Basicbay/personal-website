@@ -42,9 +42,9 @@ export default function About() {
           Nattagrit Ridtikhab
         </p>
         <div className="text-lg sm:text-xl font-medium text-zinc-400 pb-2 ">
-          Frontend Developer | 1+ Years of Experience | Expertise in React,
-          Next.js, Typescript and Node.js — I’m Always learning and exploring new things
-          !
+          Full Stack Developer | 1+ Years of Experience | Expertise in Node.js,
+          React, Typescript and Next.js — I’m Always learning and exploring new
+          things !
         </div>
 
         <div className="flex items-center gap-x-3 ">
